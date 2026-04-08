@@ -396,7 +396,31 @@ h1:where(.wp-block-heading).has-background,h2:where(.wp-block-heading).has-backg
 	--ur-button-text-hover-color: #FFFFFF;
 	--ur-button-background-normal-color: #475bb2;
 	--ur-button-background-hover-color: #38488e;
-}</style><style id='core-block-supports-inline-css'>
+}</style>		<style id="wp-custom-css">
+			:root {
+  --background-color: #f3ecff;   /* light purple */
+  --primary-purple: #7b5cd6;
+  --gold: #ffd700;
+  --text-color: #333333;
+  --font-main: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: var(--background-color);
+  font-family: var(--font-main);
+  color: var(--text-color);
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--primary-purple);
+}
+
+a {
+  color: var(--primary-purple);
+		</style>
+		<style id='core-block-supports-inline-css'>
 .wp-container-core-columns-is-layout-28f84493{flex-wrap:nowrap;}
 /*# sourceURL=core-block-supports-inline-css */
 </style>

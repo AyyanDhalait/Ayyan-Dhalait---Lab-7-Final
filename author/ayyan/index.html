@@ -377,7 +377,31 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 	--ur-button-text-hover-color: #FFFFFF;
 	--ur-button-background-normal-color: #475bb2;
 	--ur-button-background-hover-color: #38488e;
-}</style></head>
+}</style>		<style id="wp-custom-css">
+			:root {
+  --background-color: #f3ecff;   /* light purple */
+  --primary-purple: #7b5cd6;
+  --gold: #ffd700;
+  --text-color: #333333;
+  --font-main: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: var(--background-color);
+  font-family: var(--font-main);
+  color: var(--text-color);
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--primary-purple);
+}
+
+a {
+  color: var(--primary-purple);
+		</style>
+		</head>
 
 <body class="archive author author-ayyan author-1 wp-embed-responsive wp-theme-storefront wp-child-theme-storefront_child user-registration-page ur-settings-sidebar-show no-wc-breadcrumb storefront-full-width-content storefront-align-wide right-sidebar">
 
