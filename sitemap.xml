@@ -22,6 +22,11 @@
     </url>
     <url>
         <loc>
+            http://localhost:8000/basic-tech-help/
+        </loc>
+    </url>
+    <url>
+        <loc>
             http://localhost:8000/
         </loc>
     </url>
